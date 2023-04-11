@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['trash']
+
+roboflow:
+  workspace: object-detection-qq8j4
+  project: litter-detection-5lbog
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detection-qq8j4/litter-detection-5lbog/dataset/1
